@@ -1,0 +1,70 @@
+body {
+    background-image: url("loginback.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+form {
+    background: #fff;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 80px;
+    border-radius: 15px;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+input {
+    font-size: 16px;
+    padding: 15px;
+    display: compact;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    background: #d0c0c0;
+}
+
+label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    padding: 10px;
+    pointer-events: none;
+    transition: all 0.2s;
+}
+
+input:focus + label,
+input:not(:placeholder-shown) + label {
+    transform: translateY(-30px);
+    font-size: 14px;
+    font-weight: bolder;
+    color: #000000;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background: #737373;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+button:hover {
+    background: #000000;
+}

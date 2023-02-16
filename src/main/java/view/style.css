@@ -1,0 +1,59 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.customerinfo {
+    padding: 20px;
+}
+
+.customerinfo h2 {
+    margin-top: 0;
+}
+
+form {
+    margin-top: 10px;
+}
+
+form label {
+    display: inline-grid;
+    width: 150px;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    width: 230px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.motorcycleinfo{
+    padding: 20px;
+    margin-bottom: 80px;
+}
+
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}

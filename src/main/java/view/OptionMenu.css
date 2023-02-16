@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: #605f5f;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+}
+.menu a {
+     float: left;
+     display: inline-grid;
+     color: #000000;
+     text-align: left;
+     padding: 15px;
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+     text-decoration: none;
+ }
+.menu a:hover {
+    color: white;
+    transition: 0.5s;
+}
